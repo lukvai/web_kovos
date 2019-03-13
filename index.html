@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--sideBar-->
+<div id="sideBar" class="col-sm-2">
+    <a href="#">Receptai</a>
+    <a href="#">Kategorijos</a>
+</div>
+
+<!--Search-->
+<div id="body">
+    <section class="col-sm-10 col-sm-offset-2" id="recipeSearch">
+        <div class="leaf">
+            <img src="img/leaf.png" alt="">
+        </div>
+        <h1> receptų paieška</h1>
+        <div id="recipeSearchBar">
+            <form action="" class="form-group">
+                <div class="col-md-2">
+                    <select class="form-control" id="categorie">
+
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control" id="ingredients">
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select class="form-control" id="origin">
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="recipeSearchByName" placeholder="Paieška" class="form-control">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn pull-right">Ieškoti</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+    <!--SearchView-->
+    <section class="col-sm-10 col-sm-offset-2" id="recipeView">
+            <div class="col-sm-12 " id="randomView">
+
+            </div>
+    </section>
+
+    <!--LatestSection-->
+    <section class="col-sm-10 col-sm-offset-2" id="sectionLatest" >
+    <div class="leaf">
+        <img src="img/leaf.png" alt="">
+    </div>
+        <h1>Receptai</h1>
+        <div class="sectionLatestButtons">
+            <button>Naujausi</button>
+            <button>Visi</button>
+        </div>
+        <div id="recipeViewLatest">
+
+        </div>
+    </section>
+</div>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

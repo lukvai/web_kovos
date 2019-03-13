@@ -1,0 +1,113 @@
+body {
+  background-color: #eeeeee; }
+
+#sideBar {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 100px; }
+  #sideBar a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #efefef;
+    display: block;
+    text-transform: uppercase; }
+    @media screen and (max-width: 1000px) {
+      #sideBar a {
+        text-align: right;
+        font-size: 14px; } }
+
+#body {
+  margin: 3rem 5rem 0 5rem; }
+
+#recipeSearch .leaf {
+  margin-top: 50px;
+  border-top: 2px solid #dadada; }
+#recipeSearch .leaf,
+#recipeSearch img {
+  text-align: center;
+  position: relative;
+  bottom: 30px; }
+#recipeSearch h1 {
+  margin-top: -50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5b5b5b; }
+#recipeSearch #recipeSearchBar form div {
+  padding: 0; }
+  #recipeSearch #recipeSearchBar form div select {
+    border-radius: 0; }
+  #recipeSearch #recipeSearchBar form div input {
+    border-radius: 0; }
+  #recipeSearch #recipeSearchBar form div button {
+    border-radius: 0;
+    width: 80%;
+    background-color: #c7b084;
+    color: #fff; }
+
+#sectionLatest {
+  margin-top: 30px; }
+  #sectionLatest .leaf {
+    margin-top: 50px;
+    border-top: 2px solid #dadada; }
+  #sectionLatest .leaf,
+  #sectionLatest img {
+    text-align: center;
+    position: relative;
+    bottom: 30px; }
+  #sectionLatest h1 {
+    margin-top: -50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5b5b5b;
+    margin-bottom: 50px; }
+  #sectionLatest .sectionLatestButtons {
+    text-align: center;
+    margin-bottom: 70px; }
+    #sectionLatest .sectionLatestButtons button {
+      font-size: 20px;
+      border: none;
+      color: #5b5b5b;
+      background-color: #eeeeee; }
+      #sectionLatest .sectionLatestButtons button:first-of-type {
+        background-color: #2f3032;
+        color: #fff;
+        padding: 0 30px;
+        border-radius: 15px;
+        border: none;
+        font-size: 20px; }
+  #sectionLatest #recipeViewLatest {
+    padding: 0; }
+    #sectionLatest #recipeViewLatest div {
+      padding: 0px;
+      margin-bottom: 15px; }
+      #sectionLatest #recipeViewLatest div div {
+        padding: 0px; }
+        #sectionLatest #recipeViewLatest div div img {
+          padding: 0px; }
+      #sectionLatest #recipeViewLatest div div {
+        padding-left: 15px; }
+        #sectionLatest #recipeViewLatest div div h3 {
+          text-align: center; }
+        #sectionLatest #recipeViewLatest div div p {
+          margin-top: 20px;
+          font-size: 16px; }
+          #sectionLatest #recipeViewLatest div div p:first-of-type {
+            text-align: center; }
+
+#randomView {
+  margin-top: 20px; }
+  #randomView div {
+    padding: 0; }
+    #randomView div a {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      color: #fff;
+      font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
